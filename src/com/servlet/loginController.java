@@ -43,7 +43,7 @@ public class loginController extends HttpServlet {
 		RequestDispatcher rd = null;
 		
 		if (uname.equalsIgnoreCase("tom") && pass.equalsIgnoreCase("jerry")) {
-			rd = request.getRequestDispatcher("successServlet");
+			rd = request.getRequestDispatcher("Dashboard.html");
 			rd.forward(request, response);
 			
 		} else {
