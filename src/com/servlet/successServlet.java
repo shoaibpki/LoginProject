@@ -30,8 +30,7 @@ public class successServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
-		out.print("<h4> Welcome "+ request.getParameter("username")+
-				" login successful at " + new Date() +"</h4>");
+		out.print("<h4>TOM has logedout successfully at " + new Date() +"</h4>");
 	}
 
 	/**
